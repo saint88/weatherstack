@@ -1,0 +1,19 @@
+{
+	"testFiles": "**/*.feature",
+	"video": false,
+	"videoUploadOnPasses": false,
+	"screenshotOnRunFailure": false,
+	"trashAssetsBeforeRuns": false,
+	"projectId": "weatherstack",
+	"redirectionLimit": 5,
+	"waitForAnimations": false,
+	"numTestsKeptInMemory": 150,
+	"watchForFileChanges": false,
+	"modifyObstructiveCode": false,
+	"animationDistanceThreshold": 20,
+    "baseUrl": "http://api.weatherstack.com",
+    "env": {
+        "API_KEY": "aa8ca8508766786ed6386c9b3e7fe307",
+		"allure": true
+    }
+}

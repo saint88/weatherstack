@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "es6",
+      "allowJs": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "lib": ["es6", "dom"],
+      "types": [
+        "cypress"
+      ],
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "**/*.ts",
+      "../node_modules/@shelex/cypress-allure-plugin/reporter",
+      "../node_modules/cypress"
+    ],
+    "exclude": ["**/node_modules/*"]
+  }

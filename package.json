@@ -1,0 +1,34 @@
+{
+  "name": "weatherstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "report": "allure serve"
+  },
+  "author": "Pavel Balakhonov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/preset-env": "7.12.11",
+    "@shelex/cypress-allure-plugin": "2.10.0",
+    "@types/cypress": "1.1.3",
+    "@types/cypress-cucumber-preprocessor": "4.0.1",
+    "@types/node": "14.14.14",
+    "allure-commandline": "2.13.8",
+    "webpack": "4.44.2"
+  },
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "5.5.0",
+    "cypress": "8.3.0",
+    "cypress-cucumber-preprocessor": "4.2.0",
+    "fs-extra": "9.0.1",
+    "ts-loader": "8.0.12",
+    "typescript": "4.3.5"
+  }
+}
