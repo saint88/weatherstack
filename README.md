@@ -16,3 +16,4 @@ npm i && npm run cypress:open
 ```shell
 npm run report
 ```
+
